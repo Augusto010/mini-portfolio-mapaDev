@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Signika+Negative:wght@300;400&family=Ubuntu:wght@500&family=VT323&display=swap" rel="stylesheet">
+    <title>mini potifolio</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <!--
+        comentário
+    -->
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="./src/imagens/foto-perfil.jpg" alt="foto de perfil">
+            <h1>Rodrigo da Silva</h1>
+            <h2 class="cargo">Desenvolvedor Frontend junior</h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionada" id="sobre-mim">
+                    <img src="./src/imagens/sobre.gif" alt="icone sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/coracao.gif" alt="icone de redes sociais">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionada" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descricao">
+                        <p>olá meu nome é Rodrigo, seja bem-vindo</p>
+                        <p>
+                            Sempre achei a area de programação e tecnologia muito interessantes
+                            e tive o sonho de trabalhar nessa área, atualmente comecei a colocar
+                            esse sonho em prátiaca estudando<span> HTML, CSS e JavaScript</span>.
+                            Meus principais hobbies são jogar MOBAs e assistir alguma série.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas redes</h3>
+
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="#" target="_blank" class="curriculo">Curriculo</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="linkedin">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="github">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src=".\src\js\index.js"></script>
+</body>
+</html>
